@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Calligraphy-master.iml" filepath="$PROJECT_DIR$/Calligraphy-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalligraphySample/PangLong Sample.iml" filepath="$PROJECT_DIR$/CalligraphySample/PangLong Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calligraphy/panglongfont.iml" filepath="$PROJECT_DIR$/calligraphy/panglongfont.iml" />
+    </modules>
+  </component>
+</project>
+
