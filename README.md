@@ -1,11 +1,7 @@
-Calligraphy
+PangLong Font
 ===========
 
-Custom fonts in Android the easy way.
-
-Are you fed up of Custom views to set fonts? Or traversing the ViewTree to find TextViews? Yeah me too.
-
-![alt text](https://github.com/chrisjenx/Calligraphy/raw/master/screenshot.png "ScreenShot Of Font Samples")
+PangLong Custom fonts in Android the easy way.
 
 ##Getting started
 
@@ -19,7 +15,7 @@ Include the dependency:
 
 ```groovy
 dependencies {
-    compile 'uk.co.chrisjenx:calligraphy:2.0.1'
+    compile 'tai.saitawngpha.panglongfont:panglongfont:1.0.1'
 }
 ```
 ### Fonts
@@ -44,7 +40,7 @@ the config needs to be defined before that.
 public void onCreate() {
     super.onCreate();
     CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
-                            .setDefaultFontPath("fonts/Roboto-RobotoRegular.ttf")
+                            .setDefaultFontPath("fonts/PangLongr.ttf")
                             .setFontAttrId(R.attr.fontPath)
                             .build()
             );
@@ -77,7 +73,7 @@ _You're good to go!_
     android:text="@string/hello_world"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    fontPath="fonts/Roboto-Bold.ttf"/>
+    fontPath="fonts/PangLong.ttf"/>
 ```
 
 _Note: Popular IDE's (Android Studio, IntelliJ) will likely mark this as an error despite being correct. You may want to add `tools:ignore="MissingPrefix"` to either the View itself or its parent ViewGroup to avoid this. You'll need to add the tools namespace to have access to this "ignore" attribute. `xmlns:tools="
@@ -89,7 +85,7 @@ http://schemas.android.com/tools"`. See https://code.google.com/p/android/issues
 ```xml
 <style name="TextAppearance.FontPath" parent="android:TextAppearance">
     <!-- Custom Attr-->
-    <item name="fontPath">fonts/RobotoCondensed-Regular.ttf</item>
+    <item name="fontPath">fonts/PangLong.ttf</item>
 </style>
 ```
 
@@ -107,7 +103,7 @@ http://schemas.android.com/tools"`. See https://code.google.com/p/android/issues
 
 ```xml
 <style name="TextViewCustomFont">
-    <item name="fontPath">fonts/RobotoCondensed-Regular.ttf</item>
+    <item name="fontPath">fonts/PangLong.ttf</item>
 </style>
 ```
 
@@ -121,7 +117,7 @@ http://schemas.android.com/tools"`. See https://code.google.com/p/android/issues
 <style name="AppTheme.Widget"/>
 
 <style name="AppTheme.Widget.TextView" parent="android:Widget.Holo.Light.TextView">
-    <item name="fontPath">fonts/Roboto-ThinItalic.ttf</item>
+    <item name="fontPath">fonts/PangLong.ttf</item>
 </style>
 ```
 
@@ -177,6 +173,9 @@ Of course this is just an example. Your mileage may vary.
 - [@Codebutler](https://github.com/codebutler)
 - [@loganj](https://github.com/loganj)
 - [@dlew](https://github.com/dlew)
+
+# Translate from
+[@here](https://github.com/chrisjenx/Calligraphy)
 
 #Note
 
